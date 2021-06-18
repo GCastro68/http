@@ -4,7 +4,10 @@
 
 // Para la consulta de Chistes
 // import { init } from './js/chistes-page';
-// init();
+
+import { init } from './js/archivos-page';
+
+init();
 
 //Para la consulta de usuarios
 // init();
@@ -12,7 +15,7 @@
 // ********     MANEJO DEL CRUD  202106151254
 //Esta manera de importar es para tener acceso a todos los
 //métodos de crud-provider con el alias CRUD
-import * as CRUD from './js/crud-provider';
+// import * as CRUD from './js/crud-provider';
 // CRUD.getUsuario(2).then(console.log);
 
 // CRUD.crearUsuario({
@@ -25,4 +28,4 @@ import * as CRUD from './js/crud-provider';
 //     job: 'Preescolar',
 // }).then(console.log);
 
-CRUD.borrarUsuario(1).then(console.log);
+// CRUD.borrarUsuario(1).then(console.log);
